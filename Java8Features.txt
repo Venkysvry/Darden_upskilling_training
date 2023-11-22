@@ -1,0 +1,27 @@
+Lambdan Expression :
+it provides the immplementation of an interface which has functional interface .In case of lamda expression we dont need to define the method again for providing the immplementation .
+
+Functional Interface :
+the function which has only one abstract method is known as Functional interface.
+we will annotate as @FunctionalInterface
+A functional interface can extends another interface only when it does not have any abstract method.
+
+Java Lambda Expression Syntax:
+(argument-list) -> {body}  
+
+lambda expression consists of 3 components:
+1) Argument-list: It can be empty or non-empty as well.
+
+2) Arrow-token: It is used to link arguments-list and body of expression.
+
+3) Body: It contains expressions and statements for lambda expression.
+
+
+
+Streams :
+
+Package:import.java.util.stream;
+
+it is defined as it makes the elements from the source such as data strucutre or array or I/o through a pipeline of computational operations .
+
+the operations which are performed on the source elements  will not modifiy the source 

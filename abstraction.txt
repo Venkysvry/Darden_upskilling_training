@@ -1,0 +1,52 @@
+Abstract method in java:
+
+In oops concept abstraction is defined as hiding the unnecessary details (implementation) and just focus on the functionlity .
+
+Advantages: it increase the efficency.
+reduces complexity .
+abstraction can be achived using abstract classes and methods 
+
+Abstract class:
+a class is declared with abstract keyword .it can have zero or more abstract and non-abstract methods .inorder to implement those methods we need to extend the abstract class .we cannot create instances for the abstract classes .
+
+Any abstract class may or maynot contain abstract methods.
+
+Abstract method:
+a method with abstract keyword within the abstract class without implementaion(just with method signature /without body) is known as abstract method .
+
+the subclass which extends the abstract class must implement the abstract methods .
+we cannot use final modifier . .
+
+
+
+Interface :
+Another way of achieving the abstraction is using the interface concept.
+
+there can only abstract methods in interface no body .
+it is used to achive abstraction and multiple inheritance in java.
+we can have abstract methods and varibles  .
+It also represents IS-A relationship
+ we cannot create instance same as abstract class .
+Note:since java 8 we can have static and default methods in interface .
+since java 9 we can have private methods 
+
+by defualt in interface -> the fields are public static final ,and the methods are public abstract 
+
+Example:
+interface example{
+int x=10;  // compiler will under stood it as public static final int x=10;
+int add(int a,int b); // will understood it as public abstract int add(int a,int b);
+
+} 
+
+
+there may or maynot be abstract methods in interface.
+multiple inheritance is provided by the interface concept .because in interface the implementation is provided by the implementaion class .so there is no ambiguity .
+
+
+NOTE : By using the abstract class we can achive the partialuy abstraction where as by using the interface we can achiveve the fully abstraction
+
+
+
+Inheritance represents the IS-A relationship which is also known as a parent-child relationship.
+Aggregation represents HAS-A relationship where we will insert the class in the another class as a field .
